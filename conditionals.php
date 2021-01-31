@@ -17,4 +17,15 @@ if ($currentMonth == 10) {
     echo '<br>';
 }
 
+//Create a double condition that evaluates:
+//If the current minute is less than 10. Displays a message of type "the current minute is less than 10", if the current minute is greater than 15, displays a message of the type "the current minute is more than 15". If you do not meet any of the two conditions above: Displays a message of the type "does not meet any conditions”
+if (date('i') < 10) {
+    echo "The current minute is less than 10";
+}else if(date('i') > 15){
+    echo "The current minute is more than 15";
+}else{
+    echo "Doesn't meet any conditions";
+}
+echo '<br>';
+
 ?>

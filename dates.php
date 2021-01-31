@@ -13,5 +13,8 @@ echo '<br>';
 echo date('d');
 echo '<br>';
 
+//Get the current month in numerical format (1-12)
+echo date('m');
+echo '<br>';
 
 ?>

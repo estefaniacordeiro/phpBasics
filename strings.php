@@ -38,4 +38,9 @@ echo '<br>';
 echo strtoupper($myString);
 echo '<br>';
 
+
+//Execute the function that allows you to transform a text string to lowercase
+echo strtolower($myString);
+echo '<br>';
+
 ?>

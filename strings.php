@@ -22,5 +22,8 @@ echo '<br>';
 echo str_ireplace("breo", "Estefanía", $myString);
 echo '<br>';
 
+//Execute the function that allows you to write a text N times
+echo str_repeat('hi ', 3);
+echo '<br>';
 
 ?>

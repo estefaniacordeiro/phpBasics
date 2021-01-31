@@ -22,4 +22,8 @@ echo '<br>';
 echo count($arr);
 echo '<br>';
 
+//Execute the function that allows to obtain the combination of two arrays
+print_r (array_merge($arr, $arrNum));
+echo '<br>';
+
 ?>

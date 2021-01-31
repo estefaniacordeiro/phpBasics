@@ -34,4 +34,8 @@ echo '<br>';
 echo strpos('window', '');
 echo '<br>';
 
+//Execute the function that allows a text string to be capitalized
+echo strtoupper($myString);
+echo '<br>';
+
 ?>

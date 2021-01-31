@@ -18,4 +18,9 @@ $myString = 'My name is breo';
 echo str_replace("breo", "Breo", $myString);
 echo '<br>';
 
+//Execute the function that allows you to replace text in a string (without taking into account upper / lower case)
+echo str_ireplace("breo", "Estefanía", $myString);
+echo '<br>';
+
+
 ?>

@@ -28,4 +28,36 @@ if (date('i') < 10) {
 }
 echo '<br>';
 
+
+//Create a switch type control structure to display a different message depending on the current day of the week. You can write any type of message, because the important thing is that you understand how it works and in what cases you can use it.
+$currentDay = date('w');
+echo $currentDay;
+echo '<br>';
+switch ($currentDay) {
+    case 0:
+        echo 'Sunday';
+        break;
+    case 1:
+        echo 'Monday';
+        break;
+    case 2:
+        echo 'Tuesday';
+        break;
+    case 3:
+        echo 'Wednesday';
+        break;
+    case 4:
+        echo 'Thursday';
+        break;
+    case 5:
+        echo 'Friday';
+        break;
+    case 6:
+        echo 'Saturday';
+        break;
+    default:
+        echo "This day doesn't exist!";
+        break;
+}
+
 ?>

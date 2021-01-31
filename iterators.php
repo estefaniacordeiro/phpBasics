@@ -67,3 +67,12 @@ while ($i <= 10):
     echo $i;
     $i++;
 endwhile;
+
+//do while
+$i = 0;
+do {
+    echo "<br/>";
+    echo $i++;
+} while ($i < 5);
+
+?>

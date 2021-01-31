@@ -10,4 +10,12 @@ $arrNum = array(16, 3.2 , -4);
 print_r($arrNum);
 echo '<br>';
 
+//Define a multidimensional array
+$multiArray = array(
+    array('row 0 col 1', 'row 0 col 2'),
+    array('row 1 col 1', 'row 1 col 2')
+);
+print_r ($multiArray);
+echo '<br>';
+
 ?>

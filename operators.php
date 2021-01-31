@@ -29,4 +29,11 @@ echo '<br>';
 var_dump($a != $b);
 echo '<br>';
 
+//Create an example of use for logical operators: &&, And; ||, Or; ! (NOT); Xor
+var_dump($a < 8 && $b > 4);
+echo '<br>';
+var_dump($a < 8 || $b > 4);
+echo '<br>';
+var_dump(!($a < 8 && $b > 4));
+
 ?>

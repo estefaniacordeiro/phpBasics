@@ -26,4 +26,9 @@ echo '<br>';
 print_r (array_merge($arr, $arrNum));
 echo '<br>';
 
+//Execute the function that once is given an array return the last element of it
+$last = array_pop($arrNum);
+echo ($last);
+echo '<br>';
+
 ?>

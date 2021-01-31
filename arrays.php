@@ -31,4 +31,10 @@ $last = array_pop($arrNum);
 echo ($last);
 echo '<br>';
 
+//Execute the function that once is given an array add a new element to the array in question
+$newArr = array( 11, 13, 15, 17);
+$newNum = 55;
+array_push($newArr, $newNum);
+print_r ($newArr);
+
 ?>

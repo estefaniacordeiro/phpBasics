@@ -29,6 +29,7 @@ echo "Sum: ", 1 + 2, "<br/>";
 echo "Hello ", isset($name) ? $name : "John Doe", "!", "<br/>";
 
 //print: Output a string, only returns 1, ALWAYS.
+# print ( string $arg ) : int
 
 //print a string with or without parantheses
 print("This is my first print. <br/>");
@@ -65,10 +66,21 @@ This uses the "here document" syntax to output
 multiple lines with $variable interpolation. Note
 that the here document terminator must appear on a
 line with just a semicolon no extra whitespace!
-END;
+END . "<br/>";
 
 //IMPORTANT: The major differences to print are that echo accepts an argument list and doesn't have a return value.
 
 
+//print_r: Prints human-readable information about a variable
+# print_r ( mixed $value , bool $return = false ) : string|bool
+
+//When the return parameter is true, this function will return a string. Otherwise, the return value is true.
+$a = array ('a' => 'apple', 'b' => 'banana', 'c' => array ('x', 'y', 'z'));
+print_r ($a);
+print "<br/>\n";
+
+$b = array ('m' => 'monkey', 'foo' => 'bar', 'x' => array ('x', 'y', 'z'));
+$results = print_r($b, true); // $results now contains output from print_r
+print $results;
 
 ?>

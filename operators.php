@@ -15,6 +15,18 @@
     echo $a % $b;
     echo '<br>';
 
-
+//Create a usage example for comparison operators: ==,! =, <,>, <=,> =
+var_dump($a == $b);
+echo '<br>';
+var_dump($a > $b);
+echo '<br>';
+var_dump($a < $b);
+echo '<br>';
+var_dump($a >= $b);
+echo '<br>';
+var_dump($a <= $b);
+echo '<br>';
+var_dump($a != $b);
+echo '<br>';
 
 ?>

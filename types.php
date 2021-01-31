@@ -1,0 +1,11 @@
+<?php
+
+//This file as its name properly indicates will be used for working with the different basic types of variables and data:
+//Define a new variable and assign a value to each of the following types:
+
+//boolean
+$boolean = true;
+var_dump($boolean);
+echo '<br>';
+
+?>

@@ -43,5 +43,8 @@ $pepito = new ClassObject2;
 var_dump($pepito);
 echo '<br>';
 
+//NULL
+$n = null;
+var_dump($n);
 
 ?>

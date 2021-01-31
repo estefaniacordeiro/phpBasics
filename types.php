@@ -18,4 +18,9 @@ $float = 11.111;
 var_dump($float);
 echo '<br>';
 
+//string
+$sun = 'Sun';
+var_dump($sun);
+echo '<br>';
+
 ?>

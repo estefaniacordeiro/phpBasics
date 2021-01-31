@@ -18,4 +18,8 @@ $multiArray = array(
 print_r ($multiArray);
 echo '<br>';
 
+//Execute the function that allows to obtain the length of an array
+echo count($arr);
+echo '<br>';
+
 ?>

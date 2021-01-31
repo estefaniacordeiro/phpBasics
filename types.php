@@ -13,6 +13,9 @@ $int = 11;
 var_dump($int);
 echo '<br>';
 
-
+//float
+$float = 11.111;
+var_dump($float);
+echo '<br>';
 
 ?>

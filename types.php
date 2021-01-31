@@ -23,4 +23,9 @@ $sun = 'Sun';
 var_dump($sun);
 echo '<br>';
 
+//array
+$array = array('one','two', 'three');
+var_dump($array);
+echo '<br>';
+
 ?>

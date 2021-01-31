@@ -18,7 +18,27 @@ echo '<br>';
 function div($num1, $num2){
     return $num1 / $num2;
 }
-echo "11 / 2 = ".div(11,2);
+echo "11 / 2 = " . div(11,2);
+echo '<br>';
+
+//It generates a function that, given two numbers and an operation (add, multiply or divide), returns the result of that operation.
+function chooseOper($num1, $num2, $variable){
+    switch ($variable) {
+        case 'add':
+            return sum($num1,$num2);
+            break;
+        case 'multiply':
+            return mult($num1,$num2);
+            break;
+        case 'divide':
+            return div($num1,$num2);
+            break;
+        default:
+            return "This operation doesn't exist";
+            break;
+    }
+}
+echo "1 multiply(*) 2 = " . chooseOper(1,2,'multiply');
 echo '<br>';
 
 ?>

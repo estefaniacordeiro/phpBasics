@@ -8,4 +8,11 @@ $boolean = true;
 var_dump($boolean);
 echo '<br>';
 
+//integer
+$int = 11;
+var_dump($int);
+echo '<br>';
+
+
+
 ?>

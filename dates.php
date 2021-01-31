@@ -9,4 +9,9 @@
 echo date('d-m-Y');
 echo '<br>';
 
+//Get the current day
+echo date('d');
+echo '<br>';
+
+
 ?>

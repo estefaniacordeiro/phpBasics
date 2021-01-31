@@ -28,4 +28,20 @@ $array = array('one','two', 'three');
 var_dump($array);
 echo '<br>';
 
+//object
+class ClassObject {
+    public $num = 10;
+}
+$obj = new ClassObject;
+var_dump($obj);
+echo '<br>';
+
+class ClassObject2 {
+    public $pepito = 'bye';
+}
+$pepito = new ClassObject2;
+var_dump($pepito);
+echo '<br>';
+
+
 ?>

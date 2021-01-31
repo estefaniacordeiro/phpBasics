@@ -51,3 +51,19 @@ foreach ($arr as &$value) {
 echo '<br>';
 // $arr is now array(2, 4, 6, 8)
 
+//while
+/* while (expr)
+    sentencia
+*/
+$i = 1;
+while ($i <= 10) {
+    echo "<br/>";
+    echo $i++;
+}
+
+$i = 1;
+while ($i <= 10):
+    echo "<br/>";
+    echo $i;
+    $i++;
+endwhile;

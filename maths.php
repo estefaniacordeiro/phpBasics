@@ -21,4 +21,8 @@ echo '<br>';
 echo min($arr);
 echo '<br>';
 
+//Define a variable whose value is the result of the function that returns a random number
+$random = rand(5, 25);
+echo $random;
+
 ?>

@@ -43,4 +43,7 @@ echo '<br>';
 echo strtolower($myString);
 echo '<br>';
 
+//Execute the function that allows to obtain a text substring from the position
+echo substr($myString, 3, 7);
+
 ?>

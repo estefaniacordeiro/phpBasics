@@ -30,4 +30,8 @@ echo '<br>';
 echo strlen('window');
 echo '<br>';
 
+//Executes the function that allows to obtain the position of the first occurrence of a text within a text string
+echo strpos('window', '');
+echo '<br>';
+
 ?>

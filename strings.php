@@ -26,4 +26,8 @@ echo '<br>';
 echo str_repeat('hi ', 3);
 echo '<br>';
 
+//Execute the function that allows to obtain the length of a text string
+echo strlen('window');
+echo '<br>';
+
 ?>
